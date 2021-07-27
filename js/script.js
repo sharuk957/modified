@@ -18,7 +18,7 @@ var n=false
 				n=true;
 			}
 			else if(name.endsWith(" ")){
-				valid="do not enter last character as space"
+				valid="do not enter space as last character"
 				n=false
 			}
 			else{
