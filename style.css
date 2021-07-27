@@ -2193,11 +2193,11 @@ select.mobile-device {
 }
 
 .contact_form .form-control {
-    background-color: #333333;
+    background-color:;
     margin-bottom: 30px;
     border: 1px solid #ebebeb;
     box-sizing: border-box;
-    color: #bcbcbc;
+    color: black;
     font-size: 16px;
     outline: 0 none;
     padding: 10px 25px;
