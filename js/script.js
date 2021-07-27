@@ -17,6 +17,10 @@ var n=false
 				valid="";
 				n=true;
 			}
+			else if(name.endsWith(" ")){
+				valid="do not enter last character as space"
+				n=false
+			}
 			else{
 				n=false;
 				valid="characters only";
