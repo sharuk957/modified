@@ -50,20 +50,6 @@
 	.button-group button{
 		margin: 10px;
 	}
-	.flex-container {
-			display: flex;
-			flex-wrap: wrap;
-		}
-		.flex-item-left {
-  			padding: 10px;
-  			flex: 20%;
-  			font-weight: bold;
-		}
-
-		.flex-item-right {
-			padding: 10px;
-			flex: 80%;
-		}
     </style>
 </head>
 <body id="page-top" class="politics_version">
@@ -93,6 +79,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#education">Education</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Services</a>
@@ -135,33 +124,10 @@
                         <h3>Hi! My name is Muhammed Sharuk.</h3>
                         <p>I am a Web Developer, and I'm very passionate and dedicated to my work &amp; good knowledge about front end and back end developing. I love design and structure and I also stand for quality. I love spending time on fixing bugs and optimizing web apps. I like working in a team, beacuse team work is better than solo.</p>
 						<p>Reusability is key in reducing bugs and coding quikly. The more i use a piece of code,the more confident and familiar i became with it, which in turn significantly speeds up my development time.</p>
-						<div class="tb justify-content-center py-4">
-						<div class="flex-container">
-							<div class="flex-item-left"><b>NAME </b></div>
-							<div class="flex-item-right">Muhammed sharuk</div>
-						</div>
-						<div class="flex-container">
-							<div class="flex-item-left"><b>EMAIL </b></div>
-							<div class="flex-item-right">Muhammedsharuk@gmail.com</div>
-						</div>
-						<div class="flex-container">
-							<div class="flex-item-left"><b>PHN NO </b></div>
-							<div class="flex-item-right">54548624478</div>
-						</div>
-						<div class="flex-container">
-							<div class="flex-item-left"><b>DOB </b></div>
-							<div class="flex-item-right">10-11-1998</div>
-						</div>
-						<div class="flex-container">
-							<div class="flex-item-left"><b>PLACE </b></div>
-							<div class="flex-item-right">Cochin</div>
-						</div>
-					</div>
                         <a href="https://drive.google.com/file/d/13e4oh0YZp2p50pyaor9VmdiyH4jdkhAl/view?usp=sharing" target="_blank" class="sim-btn hvr-bounce-to-top"><span>Download C V</span></a>
 
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
-
                 <div class="col-md-6">
                     <div class="right-box-pro wow fadeIn">
                         <img src="uploads/11.jpg" alt="" class="img-fluid img-rounded">
@@ -170,6 +136,51 @@
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
+
+    <div id="education" class="section lb">
+  	<div class="container">
+        <div class="section-title text-center">
+        	<h3>Education &amp; Diplomas</32>        
+      	</div>
+        
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	Aug,2016<br>March 2020
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Bachelor Degree of Computer science</h4>
+                <h5>APJ Abdul kalam University Kerala</h5>
+                <p>I completed my bachelor degree from MES college of engineering and technology on 2020. I have a good academic background. During this period I completed two project. one is "Handwritten Text Recognition Using Tenserflow" and other one is "Online Shopping Using Augmented Reality"</p>
+            </div>
+        </div>
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	Jun,2014<br>Mar 2016
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Higher Secondary Education</h4>
+                <h5>Kerala University</h5>
+                <p>I completed my Higher Secondary education from Union Higher Secondary School Mambra on 2016. i have a good academic background during these years.also I participated in school athletic and i got 3rd price in 5Km race.</p>
+            </div>
+        </div>
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	Jun,2013<br>March 2014
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>High School Education</h4>
+                <h5>Kerala University</h5>
+                <p>I completed my High School education from Union Higher Secondary School Mambra on 2014. i have a good academic background during these years.And also I am one of the student who got selection to visit "IIT chennai".</p>
+            </div>
+        </div>
+    </div>
+  </div>
 	
     <div id="services" class="section lb">
         <div class="container">
@@ -429,7 +440,7 @@
             e.preventDefault()
             if(n&&m&&nu&&e){
             $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbxIKS7HOsE9vZTskDRnXrN5DRagBKNKeypux_PBrc3g7cRFFnZqoErPblxwm7vhS1o1VA/exec",
+                url:"https://script.google.com/macros/s/AKfycbzftllpwy-5e4JiPOIF5SZq1zNbu-PzHueo95XNZBomlg0ktLcEzF_t--ALFGXSFMOVFA/exec",
                 data:$("#submit-form").serialize(),
                 method:"post",
                 success:function (response){

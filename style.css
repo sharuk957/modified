@@ -2615,3 +2615,48 @@ select.mobile-device {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
 }
+.expertiesico {
+        padding:0;
+        border:none;
+        text-align:center;
+        margin-bottom:30px;
+}
+.expertiesico {
+    padding:70px 63px 70px 0;
+    text-align:center;
+    font-family:'Crimson Text',serif;
+    font-size:21px;
+    line-height:24px;
+    color:#5b4c5c;
+    font-style:italic;
+}
+/*.expertiesdesc {
+        padding:0;
+        margin-bottom:50px;
+}*/
+.expertiesdesc {
+    border-left:2px solid #ada5ad;
+    margin-bottom:100px;
+    padding: auto;
+    text-align: justify;
+}
+.expertiesdesc h4 {
+    font-size:14px;
+    font-weight:300;
+    color:#UIzards;
+    line-height:normal;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+.expertiesdesc h5 {
+    font-family: 'Crimson Text', serif;
+    color:#5b4c5c;
+    font-size:18px;
+    font-style:italic;
+    font-weight:400;
+}
+@media(min-width:576px ){
+    .expertiesdesc{
+        padding:2px 0px 10px 69px;
+    }
+}
